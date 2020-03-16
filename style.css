@@ -151,13 +151,13 @@ label #cancel{
 }
 /* each page */
 .aboutme{
-    height: 100vh;
+    height: 60vh;
     margin-top: 1%;
     width: 100%;
     margin-bottom: 6%;
 }
 .skills{
-    height: 100vh;
+    height: 80vh;
     margin-top: 1%;
     width: 100%;
     margin-bottom: 6%;
@@ -175,7 +175,7 @@ label #cancel{
     margin-bottom: 6%;
 }
 .contact{
-    height: 100vh;
+    height: 50vh;
     margin-top: 1%;
     width: 100%;
     margin-bottom: 6%;
@@ -207,7 +207,7 @@ label #cancel{
     margin-top: 30px;
 }
 .aboutme img{
-    width: 30%;
+    width: 20%;
     position: relative;
     top: -350px;
     left: calc(100% - 100px);
@@ -303,12 +303,14 @@ div[class^='bar-']{
 .sub-education p{
     text-align: justify;
 }
-.sub-education p:nth-child(1){
+.sub-education h2:nth-child(1){
     margin-top: 30px;
 }
-.sub-education p:last-child{
+.sub-education h2:last-child{
     margin-top: 30px;
 }
+
+ 
 /*  */
 .work h1{
     opacity: .1;
@@ -328,13 +330,31 @@ div[class^='bar-']{
 .sub-work p{
     text-align: justify;
 }
-.sub-work p:nth-child(1){
+.sub-work h2:nth-child(1){
     margin-top: 30px;
 }
-.sub-work p:last-child{
+.sub-work h2:last-child{
     margin-top: 30px;
 }
-/*  */
+
+/*deployed works  */
+.deployed{
+    width: 50%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 22%;
+    background: #252647;
+    box-shadow: 3px 4px 5px black;
+}
+h2{
+    text-align: center;
+}
+#one,#two,#three,#four,#five{
+    color: black;
+}
 .contact h1{
     opacity: .1;
     font-size: 8rem;
