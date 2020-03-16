@@ -39,7 +39,7 @@ html{
     display: inline-block;
 }
 .sub-title{
-    color: greenyellow;
+    color: #566676;
     font-size: 20px;
 }
 .main-title h1:hover{
@@ -163,7 +163,7 @@ label #cancel{
     margin-bottom: 6%;
 }
 .education{
-    height: 100vh;
+    height: 80vh;
     margin-top: 1%;
     width: 100%;
     margin-bottom: 6%;
@@ -309,6 +309,12 @@ div[class^='bar-']{
 .sub-education h2:last-child{
     margin-top: 30px;
 }
+.sub-edu-p{
+    margin-top: 3%;
+}
+.sub-edu-p1{
+    margin-top: 4%;
+}
 
  
 /*  */
@@ -336,6 +342,12 @@ div[class^='bar-']{
 .sub-work h2:last-child{
     margin-top: 30px;
 }
+.sub-work-p{
+    margin-top: 3%;
+}
+.sub-work-p1{
+    margin-top: 4%;
+}
 
 /*deployed works  */
 .deployed{
@@ -348,6 +360,7 @@ div[class^='bar-']{
     margin-left: 22%;
     background: #252647;
     box-shadow: 3px 4px 5px black;
+    margin-top: 1%;
 }
 h2{
     text-align: center;
