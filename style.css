@@ -363,6 +363,13 @@ div[class^='bar-']{
 #git1,
 #git2{
     font-size: 40px;
+    color: #566676;
+}
+#git:hover, 
+#git1:hover,
+#git2:hover{
+    font-size: 45px;
+    color: #7686;
 }
 /*  */
 form input,
