@@ -1,5 +1,5 @@
 
-var myBar = document.querySelector('.bar');
+/* var myBar = document.querySelector('.bar');
 window.onanimationend = function(e) {
   console.log('Animate: ', e.animationName);
   if (e.animationName == 'html') {
@@ -9,7 +9,7 @@ window.onanimationend = function(e) {
     },1);
   }
     
-}
+} */
 
 
 
