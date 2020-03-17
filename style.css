@@ -207,13 +207,13 @@ label #cancel{
     margin-top: 30px;
 }
 .aboutme img{
-    width: 20%;
+    width: 18%;
     position: relative;
-    top: -350px;
+    top: -340px;
     left: calc(100% - 100px);
     right: calc(100% - 100px);
     transform: translateX(calc(-100% + 100px));
-    opacity: .5;
+    opacity: .4;
 }
 /*  */
 .skills h1{
@@ -242,7 +242,7 @@ label #cancel{
     margin-top: 30px;
 }
 /* progress bars */
-.progress{
+/* .progress{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -283,7 +283,94 @@ div[class^='bar-']{
 .bar-react,
 .bar-node{
     width: calc(0 - 6px);
+} */
+.mySkills{
+    width: 80%;
+    margin: 60px auto;
+    color: silver;
 }
+.mySkills li{
+    margin: 20px 0;
+}
+.mySkills li h2{
+    clip-path: polygon(75% 0%,  100% 50%, 75% 100%, 0% 100%, 0% 50%, 0% 0%);
+    width: 160px;
+    height: 30px;
+    background: #1584B6;
+    margin-right: 30px;
+}
+.bar{
+    background: #353b48;
+    display: block;
+    height: 4px;
+    border: 1px solid rgba(0,0,0,.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 5px #2187e7b3;
+}
+.bar span{
+    height: 4px;
+    float: left;
+    background: #2187e7;
+}
+/* animation part */
+.html{
+    width: 95%;
+    animation: html 15s infinite;
+}
+.css{
+    width: 90%;
+    animation: css 15s infinite;
+}
+.js{
+    width: 70%;
+    animation: js 15s infinite;
+}
+.react{
+    width: 70%;
+    animation: react 15s infinite;
+}
+.node{
+    width: 75%;
+    animation: node 15s infinite;
+}
+/* animation in action */
+@keyframes html{
+    0%{
+        width: 0%;
+    } 100%{
+        width: 95%;
+    }
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    } 100%{
+        width: 90%;
+    }
+}
+@keyframes js{
+    0%{
+        width: 0%;
+    } 100%{
+        width: 70%;
+    }
+}
+@keyframes react{
+    0%{
+        width: 0%;
+    } 100%{
+        width: 70%;
+    }
+}
+@keyframes node{
+    0%{
+        width: 0%;
+    } 100%{
+        width: 75%;
+    }
+}
+
 /*  */
 .education h1{
     opacity: .1;
@@ -315,7 +402,6 @@ div[class^='bar-']{
 .sub-edu-p1{
     margin-top: 4%;
 }
-
  
 /*  */
 .work h1{

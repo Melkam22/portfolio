@@ -1,6 +1,19 @@
 
+var myBar = document.querySelector('.bar');
+window.onanimationend = function(e) {
+  console.log('Animate: ', e.animationName);
+  if (e.animationName == 'html') {
+    myBar.classList.remove('play');
+    setTimeout(function() {
+      myBar.classList.add('play');
+    },1);
+  }
+    
+}
 
-const htmlBar = document.querySelector('.bar-html');
+
+
+/* const htmlBar = document.querySelector('.bar-html');
 const cssBar = document.querySelector('.bar-css');
 const jsBar = document.querySelector('.bar-javascript');
 const reactBar = document.querySelector('.bar-react');
@@ -20,4 +33,4 @@ const scene = new ScrollMagic.Scene({
     triggerHook: 0
 })
 .setTween(myEffect)
-.addTo(contoller) 
+.addTo(contoller)  */
