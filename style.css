@@ -570,7 +570,7 @@ footer p{
     .slidebar{
         left: -35%;  /*content hidden */
         width: 35%;
-        height: 60vh;
+        min-height: 50vh;
         z-index: 1200;
     }
     ul{
@@ -650,9 +650,11 @@ footer p{
         justify-content: space-evenly;
         align-items: center;
     }
-    .totop{
-        z-index: 1300;
-    }
+    .totop {
+        margin-left: 120px;
+        position: fixed;
+        bottom: 40px;
+      }
     .deployed{
         width: 70%;
         height: 300px;
