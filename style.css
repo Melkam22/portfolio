@@ -43,7 +43,8 @@ html{
     font-size: 20px;
 }
 .main-title h1:hover{
-    color: #AB4567;
+    background: #ab24;
+    color:  white;
 }
  
 
@@ -600,6 +601,10 @@ footer p{
     }
     .main-title h1{
         font-size: 20px;
+    }
+    .main-title:hover{
+        background:#ab24;
+        color:  white;
     }
     .aboutme{
         width: 95%;
