@@ -399,7 +399,8 @@ label #cancel{
 /*deployed works  */
 .deployed{
     width: 55%;
-    min-height: 43%;
+    min-height: 250px;
+    /* min-height: 39%; */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -418,7 +419,7 @@ h2{
 /* deployed links */
 .li, .li1, .li2, .li3, .li4{
     min-width: 50%;
-    min-height: 50px;
+    min-height: 35px;
     background: #566676;
     display: flex;
     justify-content: space-evenly;
@@ -428,7 +429,7 @@ h2{
 .contact h1{
     opacity: .1;
     font-size: 8rem;
-    padding-top: 5%; 
+    padding-top: 6%; 
 }
 .sub-contact p{
     font-size: 1.2rem;
